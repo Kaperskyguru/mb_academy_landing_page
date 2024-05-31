@@ -13,8 +13,7 @@
         :bonus="{
           title: 'Free Premium Access to MB Platform',
           link: 'https://app.masteringbackend.com?utm_source=academy',
-          image:
-            'https://academy.masteringbackend.com/assets/mb_platform-BLiG_qSu.gif',
+          image: '/images/mb_platform.gif',
           features: [
             '100+ Backend Courses',
             'Track Schedules',
@@ -30,8 +29,7 @@
         :bonus="{
           title: 'Free Access to BackendProjects',
           link: 'https://app.masteringbackend.com?utm_source=academy',
-          image:
-            'https://academy.masteringbackend.com/assets/demo_projects-Bi7cyg34.gif',
+          image: '/images/demo_projects.gif',
           features: [
             '100+ Backend Projects',
             'Own a Backend Portfolio',
@@ -46,8 +44,7 @@
         :bonus="{
           title: 'Free Access to BackendPrep',
           link: 'https://app.masteringbackend.com?utm_source=academy',
-          image:
-            'https://academy.masteringbackend.com/assets/mb_platform-BLiG_qSu.gif',
+          image: '/images/mb_platform.gif',
           features: [
             '100+ Backend Interview Questions',
             'Get Backend Jobs',
