@@ -51,7 +51,7 @@ export default {
           <img
             alt="Profaily demo"
             class="w-full rounded-xl"
-            src="~/assets/profaily_demo.gif"
+            src="/images/profaily_demo.gif"
           />
         </div>
         <div
