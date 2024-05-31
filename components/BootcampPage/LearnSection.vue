@@ -97,7 +97,7 @@ export default {
           <img
             alt="logo"
             class="w-full rounded-xl"
-            src="~/assets/demo_projects.gif"
+            src="/images/demo_projects.gif"
           />
         </div>
       </div>

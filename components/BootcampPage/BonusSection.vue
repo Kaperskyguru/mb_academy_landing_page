@@ -46,7 +46,7 @@ export default {
           <img
             alt="logo"
             class="w-full rounded-xl"
-            src="~/assets/mb_platform.gif"
+            src="/images/mb_platform.gif"
           />
         </div>
       </div>
@@ -56,7 +56,7 @@ export default {
           <img
             alt="logo"
             class="w-full rounded-xl"
-            src="~/assets/demo_projects.gif"
+            src="/images/demo_projects.gif"
           />
         </div>
         <div
