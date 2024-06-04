@@ -97,6 +97,7 @@ const bootcamps = ref([
     isLive: false,
     slug: "#",
     category: "framework",
+    image: "https://pub-63da695b9ece47c5b3b49bd78b86d884.r2.dev/19.png",
     title: "Advanced Nestjs Bootcamp",
     description:
       "The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables",
@@ -107,6 +108,7 @@ const bootcamps = ref([
     slug: "#",
     isLive: false,
     category: "framework",
+    image: "https://pub-63da695b9ece47c5b3b49bd78b86d884.r2.dev/20.png",
     title: "Advanced Laravel Bootcamp",
     description:
       "The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables",
@@ -117,6 +119,7 @@ const bootcamps = ref([
     category: "language",
     slug: "#",
     isLive: false,
+    image: "https://pub-63da695b9ece47c5b3b49bd78b86d884.r2.dev/17.png",
     title: "Advanced Python Bootcamp",
     description:
       "All-in-one Python Bootcamp for learning backend engineering with Python. This bootcamp is designed for Python developers seeking proficiency in Python.",
@@ -127,6 +130,7 @@ const bootcamps = ref([
     category: "language",
     slug: "#",
     isLive: false,
+    image: "https://pub-63da695b9ece47c5b3b49bd78b86d884.r2.dev/15.png",
     title: "Advanced Go Bootcamp",
     description:
       "All-in-one Golang Bootcamp for learning backend engineering with Golang. This bootcamp is designed for Golang developers seeking proficiency in Golang.",
@@ -137,6 +141,7 @@ const bootcamps = ref([
     category: "language",
     slug: "#",
     isLive: false,
+    image: "https://pub-63da695b9ece47c5b3b49bd78b86d884.r2.dev/14.png",
     title: "Advanced Java Bootcamp",
     description:
       "All-in-one Java Bootcamp for learning backend engineering with Java. This bootcamp is designed for Java developers seeking proficiency in Java.",
@@ -146,6 +151,7 @@ const bootcamps = ref([
   {
     category: "language",
     slug: "#",
+    image: "https://pub-63da695b9ece47c5b3b49bd78b86d884.r2.dev/18.png",
     isLive: false,
     title: "Advanced Node.js Bootcamp",
     description:
@@ -157,6 +163,7 @@ const bootcamps = ref([
     category: "language",
     slug: "#",
     isLive: false,
+    image: "https://pub-63da695b9ece47c5b3b49bd78b86d884.r2.dev/21.png",
     title: "Advanced PHP Bootcamp",
     description:
       "All-in-one PHP Bootcamp for learning backend engineering with PHP. This bootcamp is designed for PHP developers seeking proficiency in PHP.",
@@ -167,6 +174,7 @@ const bootcamps = ref([
     category: "language",
     slug: "#",
     isLive: false,
+    image: "https://pub-63da695b9ece47c5b3b49bd78b86d884.r2.dev/16.png",
     title: "Advanced Rust Bootcamp",
     description:
       "All-in-one PHP Bootcamp for learning backend engineering with PHP. This bootcamp is designed for PHP developers seeking proficiency in PHP.",
@@ -177,6 +185,7 @@ const bootcamps = ref([
     category: "tools",
     slug: "#",
     isLive: false,
+    image: "https://pub-63da695b9ece47c5b3b49bd78b86d884.r2.dev/22.png",
     title: "Advanced Docker Bootcamp",
     description:
       "All-in-one Docker training. This training is designed for Backend engineers seeking proficiency in Docker.",
