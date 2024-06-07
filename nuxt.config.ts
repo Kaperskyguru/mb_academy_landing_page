@@ -27,13 +27,7 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: "en",
       },
-      titleTemplate: `%s %separator %siteName`,
-      templateParams: {
-        s: "Backend Engineering Bootcamps and Training",
-        siteName: "Masteringbackend",
-        separator: "|",
-      },
-
+      title: `Backend Engineering Bootcamps and Training`,
       meta: [
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
