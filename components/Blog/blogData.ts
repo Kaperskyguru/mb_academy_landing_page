@@ -3,6 +3,7 @@ import type { Blog } from "@/types/blog";
 const blogData: Blog[] = [
   {
     id: 1,
+    link:'#'
     title: "How MB Academy Helped this Alum transistion to a Backend Engineer",
     paragraph:
       "Embarking on a new career path can be daunting, especially when switching from a role in resource management to backend engineering. For one alum, Masteringbackend Academy was the catalyst for this transformation.",
@@ -17,6 +18,7 @@ const blogData: Blog[] = [
   },
   {
     id: 2,
+    link:'https://masteringbackend.com/posts/top-5-best-backend-bootcamps-and-why'
     title: "Top 5 Best Backend Bootcamps and Why",
     paragraph:
       "When it comes to mastering backend development, choosing the right bootcamp can make all the difference. Here are the top 5 best backend bootcamps and why they stand out:",
@@ -30,6 +32,7 @@ const blogData: Blog[] = [
     publishDate: "2025",
   },
   {
+    link:'#',
     id: 3,
     title: "10 Highest Paying Tech Careers in 2024",
     paragraph:
