@@ -7,7 +7,7 @@ const blogData: Blog[] = [
     title: "How MB Academy Helped this Alum transistion to a Backend Engineer",
     paragraph:
       "Embarking on a new career path can be daunting, especially when switching from a role in resource management to backend engineering. For one alum, Masteringbackend Academy was the catalyst for this transformation.",
-    image: "/images/blog/blog-01.jpg",
+    image: "/images/blog/photo1.jpg",
     author: {
       name: "Samuyl Joshi",
       image: "/images/blog/author-01.png",
