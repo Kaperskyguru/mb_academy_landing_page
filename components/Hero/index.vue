@@ -176,6 +176,7 @@
 
           <div class="w-full py-4">
             <button
+              @click="subscribe"
               class="shadow-submit dark:shadow-submit-dark w-full uppercase rounded-sm bg-primary px-9 py-4 text-base font-medium text-white duration-300 hover:bg-primary/90"
             >
               Get More Info
@@ -428,6 +429,7 @@ import { ref } from "vue";
 import brandsData from "../Brands/brandsData";
 const track = ref("");
 const bootcamp = ref("");
+const form = ref(null);
 
 const filteredBrandData = computed(() => {
   return brandsData?.filter((i) => {
@@ -439,6 +441,10 @@ const filteredBrandData = computed(() => {
       return i;
   });
 });
+
+function subscribe() {
+  form.value.submit();
+}
 </script>
 
 <style>
