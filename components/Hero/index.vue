@@ -37,14 +37,7 @@
             </p>
             <div class="flex w-3/4">
               <div
-                v-for="brand in brandsData?.filter((i) => {
-                  if (
-                    i.name.includes('Salesforce') ||
-                    i.name.includes('Razorpay') ||
-                    i.name.includes('SentinelOne')
-                  )
-                    return i;
-                })"
+                v-for="brand in filteredBrandData"
                 :key="brand.id"
                 class="mx-3 w-full flex max-w-[160px] items-center justify-center py-[15px] sm:mx-4 lg:max-w-[130px] xl:mx-6 xl:max-w-[150px] 2xl:mx-8 2xl:max-w-[160px]"
               >
@@ -132,28 +125,52 @@
 
             <input
               type="hidden"
-              id="31b47661-eae6-42bd-bc02-df3c004a01f9"
               name="HiddenTag"
               :value="track"
+              class="encharge-form-input sc-htoDjs jmyTNa form-control"
+            />
+
+            <input
+              type="hidden"
+              name="Custom"
+              :value="bootcamp"
               class="encharge-form-input sc-htoDjs jmyTNa form-control"
             />
           </form>
           <div class="pb-5">
             <label
-              htmlFor="email"
+              htmlFor="bootcamp"
               class="mb-3 block text-sm font-medium text-dark dark:text-white"
             >
               Select your subject
             </label>
 
             <select
-              name="track"
-              id=""
+              v-model="bootcamp"
               class="border-stroke dark:text-body-color-dark dark:shadow-two w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:focus:border-primary dark:focus:shadow-none"
             >
               <option value="advanced-backend">
                 Advanced Backend Bootcamp
               </option>
+            </select>
+          </div>
+
+          <div class="pb-5" v-if="bootcamp === 'advanced-backend'">
+            <label
+              htmlFor="track"
+              class="mb-3 block text-sm font-medium text-dark dark:text-white"
+            >
+              Select your language track
+            </label>
+
+            <select
+              name="track"
+              id="track"
+              v-model="track"
+              class="border-stroke dark:text-body-color-dark dark:shadow-two w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:focus:border-primary dark:focus:shadow-none"
+            >
+              <option value="nodejs">JavaScript</option>
+              <option value="php">PHP</option>
             </select>
           </div>
 
@@ -163,28 +180,6 @@
             >
               Get More Info
             </button>
-
-            <div
-              v-if="res?.message || show"
-              class="alert mt-1 fade d-flex font-weight-normal"
-              style="justify-items: space-between"
-              :class="[`alert-${res?.type}`, { show: show }]"
-              role="alert"
-            >
-              <p class="w-100 font-weight-normal small">{{ res?.message }}</p>
-              <button
-                v-if="res?.message"
-                type="button"
-                data-dismiss="alert"
-                aria-label="Close"
-                @click="
-                  show = false;
-                  res = {};
-                "
-              >
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
           </div>
         </div>
       </div>
@@ -429,7 +424,21 @@
 </template>
 <!-- Backend Engineering <br />Bootcamps and Trainings. -->
 <script setup>
+import { ref } from "vue";
 import brandsData from "../Brands/brandsData";
+const track = ref("");
+const bootcamp = ref("");
+
+const filteredBrandData = computed(() => {
+  return brandsData?.filter((i) => {
+    if (
+      i.name.includes("Salesforce") ||
+      i.name.includes("Razorpay") ||
+      i.name.includes("SentinelOne")
+    )
+      return i;
+  });
+});
 </script>
 
 <style>
