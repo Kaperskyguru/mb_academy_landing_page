@@ -177,7 +177,7 @@ const bootcamps = ref([
     image: "https://pub-63da695b9ece47c5b3b49bd78b86d884.r2.dev/16.png",
     title: "Advanced Rust Bootcamp",
     description:
-      "All-in-one PHP Bootcamp for learning backend engineering with PHP. This bootcamp is designed for PHP developers seeking proficiency in PHP.",
+      "All-in-one Rust Bootcamp for learning backend engineering with Rust. This bootcamp is designed for Rust developers seeking proficiency in Rust.",
     features: ["Online", "Full Time", "3-4 Months", "Certification"],
   },
 
