@@ -100,7 +100,7 @@ const bootcamps = ref([
     image: "https://pub-63da695b9ece47c5b3b49bd78b86d884.r2.dev/19.png",
     title: "Advanced Nestjs Bootcamp",
     description:
-      "The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables",
+      "All-in-one Nestjs Bootcamp for learning backend engineering with Nestjs. This bootcamp is designed for Nestjs developers seeking proficiency in Nestjs.",
     features: ["Online", "Full Time", "3-4 Months", "Certification"],
   },
 
@@ -111,7 +111,7 @@ const bootcamps = ref([
     image: "https://pub-63da695b9ece47c5b3b49bd78b86d884.r2.dev/20.png",
     title: "Advanced Laravel Bootcamp",
     description:
-      "The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables",
+      "All-in-one Laravel Bootcamp for learning backend engineering with Laravel. This bootcamp is designed for Laravel developers seeking proficiency in Laravel.",
     features: ["Online", "Full Time", "3-4 Months", "Certification"],
   },
 
