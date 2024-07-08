@@ -20,6 +20,7 @@
       </p>
       <div class="flex items-center">
         <div
+          v-if="!testimonial?.image == '#'"
           class="relative mr-4 h-[50px] w-full max-w-[50px] overflow-hidden rounded-full"
         >
           <img
