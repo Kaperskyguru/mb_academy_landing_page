@@ -70,7 +70,7 @@ defineProps(["type", "title", "description"]);
 
 const bootcamps = ref([
   {
-    isLive: true,
+    isLive: false,
     slug: "backend-engineering-101",
     image:
       "https://pub-63da695b9ece47c5b3b49bd78b86d884.r2.dev/free%20backend%20bootcamp.png",

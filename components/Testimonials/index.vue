@@ -179,6 +179,46 @@ const testimonialData = ref([
     image: "https://masteringbackend.com/img/people/eshan.jpeg",
     star: 5,
   },
+
+  {
+    id: 4,
+    name: "Abideen Abdulazeez",
+    designation: "Backend Engineer, Freelancer",
+    content:
+      "I particularly learned how to work with teams and collaboration with Github on project based level. It was really an awesome experience and I will highly recommend it to anyone.",
+    image: "#",
+    star: 5,
+  },
+
+  {
+    id: 5,
+    name: "Oduwale Awwal",
+    designation: "Backend Developer, Refine Agency",
+    content:
+      "I learned the deep concepts around databases for backend engineers that are not taught in courses. The bootcamp was highly impactful and help me land backend role with Refine Agency. I will highly recommend it to other backend engineers who wants to be great.",
+    image: "#",
+    star: 5,
+  },
+
+  {
+    id: 6,
+    name: "Saheed Olayinka",
+    designation: "Resources Personnel, Elite page",
+    content:
+      "The bootcamp contributed immersively in my journey of transitioning from Resources Personnel to a Backend Engineer. I learned how to mitigating techniques and different backend technologies, team work and collaborating with team members efficiently.",
+    image: "#",
+    star: 5,
+  },
+
+  {
+    id: 7,
+    name: "Saheed Olayinka",
+    designation: "Software Engineer, First City Monument Bank (FCMB)",
+    image: "#",
+    star: 5,
+    content:
+      "The bootcamp has been an eye opener so far when it comes to Backend engineering. I learned about API security and more insights on the foundations of Backend engineering. The instructors were good at what they do and patient enough to help students understand",
+  },
 ]);
 </script>
 
