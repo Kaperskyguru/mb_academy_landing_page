@@ -25,7 +25,8 @@ const blogData: Blog[] = [
     image: "/images/blog/blog-02.jpg",
     author: {
       name: "Musharof Chy",
-      image: "/images/blog/author-02.png",
+      image:
+        "https://strapi-images-aws-s3.s3.us-west-2.amazonaws.com/Top_5_Best_Backend_Bootcamps_and_Why_6aea8ea951.png",
       designation: "Content Writer",
     },
     tags: ["computer"],
