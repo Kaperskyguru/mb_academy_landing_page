@@ -212,12 +212,22 @@ const testimonialData = ref([
 
   {
     id: 7,
-    name: "Saheed Olayinka",
+    name: "Temitope Akinmegha",
     designation: "Software Engineer, First City Monument Bank (FCMB)",
     image: "#",
     star: 5,
     content:
       "The bootcamp has been an eye opener so far when it comes to Backend engineering. I learned about API security and more insights on the foundations of Backend engineering. The instructors were good at what they do and patient enough to help students understand",
+  },
+
+  {
+    id: 8,
+    name: "Amos Sigbenu",
+    designation: "Student, Masters in computer science",
+    image: "#",
+    star: 5,
+    content:
+      "I gained practical experience through numerous coding projects and exercises, which helped reinforce the theoretical concepts taught during the sessions. The bootcamp provided me with comprehensive knowledge of various programming languages and frameworks, including Python, and Django.",
   },
 ]);
 </script>
