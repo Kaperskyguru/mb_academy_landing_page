@@ -8,7 +8,7 @@
         <img
           alt="logo"
           class="w-60"
-          src="https://masteringbackend.com/_nuxt/img/logo.07779e2.png"
+          src="https://global.divhunt.com/d5e968b0a002e47508284a7622f2c97e_4728.png"
         />
         <p class="text-left pl-12 text-xl font-bold">Academy</p>
       </a>
