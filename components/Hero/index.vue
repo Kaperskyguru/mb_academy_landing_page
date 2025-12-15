@@ -8,7 +8,7 @@
         <img
           alt="logo"
           class="w-60"
-          src="https://global.divhunt.com/d5e968b0a002e47508284a7622f2c97e_4728.png"
+          src="https://app.masteringbackend.com/logo.png"
         />
         <p class="text-left pl-12 text-xl font-bold">Academy</p>
       </a>
@@ -25,7 +25,7 @@
             <h1
               class="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight"
             >
-              Exclusive Backend Engineering Bootcamps and Trainings.
+              Exclusive Backend Engineering Bootcamps and Training.
             </h1>
             <p
               class="dark:text-body-color-dark mb-12 text-base !leading-relaxed text-body-color sm:text-lg md:text-xl"
