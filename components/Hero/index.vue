@@ -7,7 +7,7 @@
       <a href="https://masteringbackend.com?utm_source=academy" class="">
         <img
           alt="logo"
-          class="w-60"
+          class="w-10"
           src="https://app.masteringbackend.com/logo.png"
         />
         <p class="text-left pl-12 text-xl font-bold">Academy</p>
